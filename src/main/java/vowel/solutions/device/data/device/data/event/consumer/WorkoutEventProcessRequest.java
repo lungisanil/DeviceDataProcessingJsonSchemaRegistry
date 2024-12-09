@@ -8,6 +8,7 @@ public class WorkoutEventProcessRequest {
     private Float averageHeartRate;
     private String workoutId;
     private Integer processed;
+    private String emailAddress;
 
     public Long getMemberId() {
         return memberId;
@@ -72,6 +73,15 @@ public class WorkoutEventProcessRequest {
         return this;
     }
 
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public WorkoutEventProcessRequest setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+        return this;
+    }
+
     @Override
     public String toString() {
         return "WorkoutEventProcessRequest{" +
@@ -82,6 +92,7 @@ public class WorkoutEventProcessRequest {
                 ", averageHeartRate=" + averageHeartRate +
                 ", workoutId='" + workoutId + '\'' +
                 ", processed=" + processed +
+                ", emailAddress='" + emailAddress + '\'' +
                 '}';
     }
 }

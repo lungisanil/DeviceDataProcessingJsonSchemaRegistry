@@ -1,1 +1,5 @@
+vowel\solutions\device\data\device\data\event\notification\PointsNotificationRequest.class
+vowel\solutions\device\data\device\data\event\consumer\WorkoutEventProcessRequest.class
+vowel\solutions\device\data\device\data\event\processor\WorkoutEventPointsMnemonic.class
 vowel\solutions\device\data\device\data\event\producer\WorkoutEvent.class
+vowel\solutions\device\data\device\data\event\processor\WorkoutEventPointsRequest.class

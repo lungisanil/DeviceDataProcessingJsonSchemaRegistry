@@ -1,1 +1,5 @@
+C:\DO\personal-dev\device-data-processing\DeviceDataProcessingJsonSchemaRegistry\src\main\java\vowel\solutions\device\data\device\data\event\processor\WorkoutEventPointsMnemonic.java
+C:\DO\personal-dev\device-data-processing\DeviceDataProcessingJsonSchemaRegistry\src\main\java\vowel\solutions\device\data\device\data\event\notification\PointsNotificationRequest.java
 C:\DO\personal-dev\device-data-processing\DeviceDataProcessingJsonSchemaRegistry\src\main\java\vowel\solutions\device\data\device\data\event\producer\WorkoutEvent.java
+C:\DO\personal-dev\device-data-processing\DeviceDataProcessingJsonSchemaRegistry\src\main\java\vowel\solutions\device\data\device\data\event\processor\WorkoutEventPointsRequest.java
+C:\DO\personal-dev\device-data-processing\DeviceDataProcessingJsonSchemaRegistry\src\main\java\vowel\solutions\device\data\device\data\event\consumer\WorkoutEventProcessRequest.java

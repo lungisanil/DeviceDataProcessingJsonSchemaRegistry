@@ -6,6 +6,7 @@ public class WorkoutEvent {
     private String deviceName;
     private Float averageSpeed;
     private Float averageHeartRate;
+    private String emailAddress;
 
     public Long getMemberId() {
         return memberId;
@@ -52,6 +53,15 @@ public class WorkoutEvent {
         return this;
     }
 
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public WorkoutEvent setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+        return this;
+    }
+
     @Override
     public String toString() {
         return "WorkoutEvent{" +
@@ -60,6 +70,7 @@ public class WorkoutEvent {
                 ", deviceName='" + deviceName + '\'' +
                 ", averageSpeed=" + averageSpeed +
                 ", averageHeartRate=" + averageHeartRate +
+                ", emailAddress='" + emailAddress + '\'' +
                 '}';
     }
 }
