@@ -17,7 +17,7 @@
         <repository>
             <id>github</id>
             <name>GitHub lungisanil Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/lungisanil/*</url>
+            <url>https://maven.pkg.github.com/lungisanl/DeviceDataProcessingJsonSchemaRegistry</url>
         </repository>
     </distributionManagement>
 
