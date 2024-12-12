@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/maven-settings.xml
+      run: mvn deploy -s $GITHUB_WORKSPACE
       env:
         GITHUB_TOKEN: ${{ github.token }}
         USE_HARD_LINKS: false
